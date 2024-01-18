@@ -1,0 +1,14 @@
+[package]
+name = "ic-verify-example"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ic-validator-ingress-message = { git = "https://github.com/dfinity/ic.git", rev = "0c407ac0c7929111a0e59741a2efa685b001cb15" }
+ic-types = { git = "https://github.com/dfinity/ic.git", rev = "0c407ac0c7929111a0e59741a2efa685b001cb15" }
+ic-agent = "0.32.0"
+k256 = "0.13.3"
+rand_core = "0.6.4"
+candid = "0.10.2"
